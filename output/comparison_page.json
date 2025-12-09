@@ -1,0 +1,32 @@
+{
+  "product_a_name": "GlowBoost Vitamin C Serum",
+  "product_b_name": "RadianceReveal Vitamin C Serum",
+  "summary": "GlowBoost Vitamin C Serum (₹699) and RadianceReveal Vitamin C Serum (₹849) are two vitamin C serum options compared based on their price, concentration, key ingredients, and suitable skin types. GlowBoost stands out as the more affordable option, but RadianceReveal has a higher concentration of vitamin C. In terms of key ingredients, both products are tied, but suitable for different skin types.",
+  "comparison_table": [
+    {
+      "feature": "Price",
+      "product_a_value": "₹699",
+      "product_b_value": "₹849",
+      "winner": "A"
+    },
+    {
+      "feature": "Concentration",
+      "product_a_value": "10% Vitamin C",
+      "product_b_value": "15% Vitamin C",
+      "winner": "B"
+    },
+    {
+      "feature": "Key Ingredients",
+      "product_a_value": "Vitamin C, Hyaluronic Acid",
+      "product_b_value": "Vitamin C, Niacinamide",
+      "winner": "Tie"
+    },
+    {
+      "feature": "Suitable For",
+      "product_a_value": "Oily, Combination",
+      "product_b_value": "All Skin Types",
+      "winner": "Tie"
+    }
+  ],
+  "verdict": "We recommend GlowBoost Vitamin C Serum for those on a budget or with oily/combination skin, while RadianceReveal is suitable for those with all skin types and willing to invest in a higher concentration of vitamin C."
+}

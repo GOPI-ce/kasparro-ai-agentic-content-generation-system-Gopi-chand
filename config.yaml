@@ -1,0 +1,53 @@
+# Multi-Agent Content Generation System Configuration
+
+# Gemini LLM Settings
+llm:
+  model: "models/gemini-1.5-flash"
+  temperature: 0.7
+  max_tokens: 2048
+  top_p: 0.9
+  top_k: 40
+
+# Agent Settings
+agents:
+  coordinator:
+    enabled: true
+    max_retries: 3
+  
+  data_extractor:
+    enabled: true
+    validation_strict: true
+  
+  comparison_analyzer:
+    enabled: true
+    min_ingredients: 2
+  
+  content_generator:
+    enabled: true
+    use_templates: true
+  
+  quality_validator:
+    enabled: true
+    min_quality_score: 0.7
+
+# Template Settings
+templates:
+  benefits_comparison: true
+  usage_instructions: true
+  composition_breakdown: true
+  safety_considerations: true
+  summary: true
+
+# Output Settings
+output:
+  format: "json"
+  indent: 2
+  validate_schema: true
+  include_metadata: true
+
+# Logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/agent_execution.log"
+  console: true
